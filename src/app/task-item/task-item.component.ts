@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import tasks from '../tasks';
 
 @Component({
   selector: 'app-task-item',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TaskItemComponent implements OnInit {
 
-  constructor() { }
+  tasks = [];
+
+  constructor() { 
+    this.tasks = tasks;
+  }
 
   ngOnInit() {
   }
