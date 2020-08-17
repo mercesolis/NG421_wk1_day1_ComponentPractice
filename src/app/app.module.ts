@@ -6,6 +6,7 @@ import { DateTimeComponent } from './date-time/date-time.component';
 import { TransactionsPanelComponent } from './transactions-panel/transactions-panel.component';
 import { MessagePreviewComponent } from './message-preview/message-preview.component';
 import { TaskItemComponent } from './task-item/task-item.component';
+import { TopNavComponent } from './top-nav/top-nav.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { TaskItemComponent } from './task-item/task-item.component';
     DateTimeComponent,
     TransactionsPanelComponent,
     MessagePreviewComponent,
-    TaskItemComponent
+    TaskItemComponent,
+    TopNavComponent
   ],
   imports: [
     BrowserModule
