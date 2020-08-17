@@ -14,11 +14,16 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr *ngFor="let order of orders">
+                    <tr *ngFor="let order of orders" >
+                    
+                        
                         <td>{{order.id}}</td>
                         <td>{{order.orderDate}}</td>
                         <td>{{order.orderTime}}</td>
                         <td>{{order.amount}}</td>
+                
+                        
+                         
                     </tr>
                 </tbody>
             </table>
