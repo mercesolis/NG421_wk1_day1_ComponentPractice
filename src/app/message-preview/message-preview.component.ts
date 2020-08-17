@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import messages from '../messages';
 
 @Component({
   selector: 'app-message-preview',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MessagePreviewComponent implements OnInit {
 
+  messages = [];
+
   constructor() { }
 
   ngOnInit() {
+    this.messages = messages;
   }
 
 }

@@ -10,7 +10,13 @@
                 <!-- DateTime   -->
                 <app-date-time></app-date-time>
                 <!-- DateTime   -->
-                <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                <p *ngFor="let message of messages">
+                    <td>{{message.id}}</td>
+                    <td>{{message.name}}</td>
+                    <td>{{message.date}}</td>
+                    <td>{{message.time}}</td>
+                </p>
+
             </div>
         </div>
     </a>
