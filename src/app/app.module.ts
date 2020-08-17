@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { DateTimeComponent } from './date-time/date-time.component';
 import { TransactionsPanelComponent } from './transactions-panel/transactions-panel.component';
 import { MessagePreviewComponent } from './message-preview/message-preview.component';
+import { TaskItemComponent } from './task-item/task-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DateTimeComponent,
     TransactionsPanelComponent,
-    MessagePreviewComponent
+    MessagePreviewComponent,
+    TaskItemComponent
   ],
   imports: [
     BrowserModule
